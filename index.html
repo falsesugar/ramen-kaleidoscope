@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ramen Kaleidoscope by Tina Rungsawang</title>
+    <meta name="description" content="Cook up some ramen" />
+    <meta charset="UTF-8" />
+    <link rel='icon' href='https://i.ibb.co/Pj1YcpV/ramen-favicon-02.gif'
+    type='image/x-icon'/ >
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/r3hktRy/Ramen-Kaleidoscope-6.png"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <div id="top-bar">
+      <button id="undo" class="top-buttons">
+        <img src="img/undo-icon-white-01.svg" />
+      </button>
+      <button id="save" class="top-buttons">
+        <img src="img/save-icon-white-01.svg" />
+      </button>
+    </div>
+
+    <canvas id="canvas" width="400px" height="400px"></canvas>
+    <canvas id="canvasBg" width="400px" height="400px"></canvas>
+
+    <div id="title">
+      <!-- <p><h1>Ramen Kaleidoscope</p></h1> -->
+      <img id="ramen-title" src="img/ramen-title-01.svg" />
+      <p></p>
+      <h2 id="name"><a href="https://tina.pizza/">by Tina Rungsawang</a></h2>
+    </div>
+
+    <div id="brush-buttons">
+      <button id="noodles" class="brush-button">
+        <img class="icon" src="img/icon01-ramen.png" />
+      </button>
+      <button id="eggs" class="brush-button">
+        <img class="icon" src="img/icon02-eggs.png" />
+      </button>
+      <button id="scallions" class="brush-button">
+        <img class="icon" src="img/icon03-scallions.png" />
+      </button>
+      <button id="corn" class="brush-button">
+        <img class="icon" src="img/icon04-corn.png" />
+      </button>
+    </div>
+
+    <div id="reset-bar">
+      <button id="backgrounds">Backgrounds</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
